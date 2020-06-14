@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image:url("../images/bj.jpg");
+}
+h1 {
+    font-family: "Adobe 仿宋 Std R";
+    color: #9fdd4d;
+    text-align: center;
+}
+h3 {
+    font-family: "Adobe 仿宋 Std R";
+    text-align: center;
+}
+p{
+    font-size: 24px;
+    font-family: "Adobe 宋体 Std R";
+    text-indent: 2em;
+}
+li{
+    list-style: none;
+}
+.top {
+    height: 100px;
+    line-height: 100px;
+}
+.top img{
+    height: 100px;
+}
+.header {
+    width: 1200px;
+    height: 100px;
+    /*background-color: #fff;*/
+    margin: 0 auto;
+    background-color: #6699CC;
+}
+.clearfix:after {  content: "."; display: block; height: 0; clear: both; visibility: hidden;  }
+
+.clearfix { *zoom: 1;}   /* IE6、7 专有 */
+.inner{
+    width: 1200px;
+    height: 100px;
+    /*background-color: pink;*/
+    margin: 0 auto;
+    line-height: 100px;
+}
+.logo {
+    float:left;
+}
+/*logo*/
+.logo img {
+   height:100px;
+}
+.logo1 {
+    float: left;
+}
+.logo1 h1{
+    color: #212425;
+}
+logo2 {
+    float: right;
+}
+.logo2 h1{
+    text-align: center;
+    color: #212425;
+}
+
+.nav {
+    float:right;
+}
+.nav li{
+    float: left;
+    margin: 0 20px;
+    overflow: hidden;
+}
+.nav-r li{
+    float: left;
+    margin: 20px 53px;
+}
+.nav li a, .nav-r li a {
+    color: #333333;
+    text-decoration: none;
+}
+.nav li a:hover,.nav-r li a:hover{
+    color: #2288f6;
+}
+/*banner start*/
+.banner {
+    vertical-align: top;
+    height: 50px;
+
+}
+/*banner end*/
+
+/*main start*/
+.main {
+    width: 1200px;
+    /*background-color: blue;*/
+    margin: 0 auto;
+    background-color: #6699CC;
+}
+.left {
+    width: 488px;
+    /*height: 500px;*/
+    /*background-color: pink;*/
+    float: left;
+    /*border: 1px solid red;*/
+    position: relative;
+}
+.leftL {
+    float: left;
+    position: absolute;
+    top: 20%;
+    left: 20px;
+}
+.right {
+    width: 710px;
+    height: 500px;
+    float: right;
+}
+.left-p p{
+    text-indent: 0em;
+}
+.rightR {
+    width: 312px;
+    /*height: 300px;*/
+    float: right;
+}
+.center li{
+    display: none;
+}
+/*main结束*/
+
+/*滑动*/
+.sty {
+    width: 100%;
+}
+.sty1 {
+    /*margin-left: 325px;*/
+    width: 100%;
+    /*width: 1233px;*/
+    overflow-y:auto;
+    height: 700px;
+}
+
+/*food开始*/
+.food-main {
+    width: 1200px;
+    margin: 0 auto;
+    /*border: 1px solid #dddddd;*/
+    background-color: #6699CC;
+    overflow: hidden;
+}
+.show{
+    margin: 0 auto;
+    width: 600px;
+    height: 50px;
+}
+.show li {
+    display: none;
+}
+.food {
+    height: 340px;
+    width: 790px;
+    margin: 100px auto;
+    position: relative;
+}
+.food li {
+    position: absolute;
+    display: none;
+}
+.food li:first-child {
+    display: block;
+}
+.arrow {
+    display: none;
+}
+.food:hover .arrow {
+    display: block;
+}
+.arrow-left,
+.arrow-right {
+    font-family: "SimSun", "宋体";
+    width: 30px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+}
+.arrow-left:hover,
+.arrow-right:hover {
+    background-color: rgba(0, 0, 0, .5);
+}
+.arrow-left {
+    left: 0;
+}
+.arrow-right {
+    right: 0;
+}
+
+/*旅游景点*/
+
+.jigndian {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #6699CC;
+}
+.img1-content {
+    width: 600px;
+    float: left;
+}
+.a-content {
+    width: 530px;
+    float: right;
+}
+.img2-content {
+    width: 600px;
+    float: right;
+}
+.b-content {
+    width: 600px;
+    float: left;
+}
+/*页面底部开始*/
+.footer	{
+    width: 1200px;
+    height: 50px;
+    background-color: #6699CC;
+    /*overflow: hidden;*/
+    margin:0 auto;
+}
+.subnav {
+    text-align: center;
+    margin-top: 20px;
+    color: #ccc;
+}
+.subnav p {
+    text-align: center;
+    color: #333333;
+    font-size: 18px;
+    /*margin-top: 10px;*/
+}
+/*登录*/
+.hide {
+    display: none;
+}
+.focus, .error {
+    color: #e4393c;
+    line-height: 36px;
+    height: 36px;
+    position: absolute;
+    top: 0px;
+    width: 260px;
+    padding: 0 5px;
+    background: #FFEBEB;
+    border: 1px solid #ffbdbe;
+}
+.error span, .focus span {
+    padding: 5px 0;
+    line-height: 13px;
+    display: block;
+}
+.focus {
+    color: #666;
+    width: 260px;
+    line-height: 36px;
+    background: #f7f7f7;
+    border: 1px solid #dddddd;
+}
+.regist {
+    width: 990px;
+    padding: 0;
+    margin: 200px auto;
+    zoom: 1;
+}
+.mc {
+    padding: 30px 0 20px;
+    border: solid #dddddd;
+    border-width: 0px 1px 1px;
+    background: rgba(0, 0, 0, .5);
+    overflow: hidden;
+    zoom: 1;
+    border-width: 0px 1px 1px;
+}
+.form {
+    float: left;
+    width: 750px;
+    font-size: 12px;
+}
+.form label, .form input, .form select, .form textarea, .form button, .form .label {
+    float: left;
+    font-size: 12px;
+}
+.item {
+    padding-top: 9px;
+    height: 60px;
+    line-height: 34px;
+    position: relative;
+    z-index: 1;
+}
+.label {
+    float: left;
+    width: 190px;
+    text-align: right;
+    font-size: 14px;
+    color: #999;
+    padding-right: 10px;
+}
+.input {
+    float: left;
+    position: relative;
+    width: 270px;
+    overflow: visible;
+}
+.text {
+    float: none;
+    width: 275px;
+    height: 37px;
+    line-height: 32px;
+    border: 1px solid #cccccc;
+    font-size: 14px;
+    font-family: arial, "宋体";
+    overflow: hidden;
+}
+.btn-imgl {
+    width: 50px;
+    margin: 20px 200px 0 180px;
+}
+.btn-imgr {
+    width: 50px;
+    margin-top: 20px;
+}
